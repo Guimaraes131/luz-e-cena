@@ -1,6 +1,12 @@
+import Banner from "./components/Banner"
+import Link from "./components/Link"
+
 const App = () => {
     return (
-        <h1>Olá mundo</h1>
+        <>
+            <Banner src="public\Imagens\Banner Desktop.png" alt="Banner"/>
+            <Link href="/" target="_blank">Link</Link>
+        </>
     )
 }
 
