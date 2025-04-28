@@ -1,11 +1,11 @@
 import Banner from "./components/Banner"
-import Link from "./components/Link"
+import Header from "./components/Header"
 
 const App = () => {
     return (
         <>
+            <Header/>
             <Banner src="public\Imagens\Banner Desktop.png" alt="Banner"/>
-            <Link href="/" target="_blank">Link</Link>
         </>
     )
 }

@@ -1,11 +1,10 @@
-
-interface SelectorOption extends React.OptionHTMLAttributes<HTMLOptionElement> {
+interface SelectorOptionProps extends React.OptionHTMLAttributes<HTMLOptionElement> {
     label: string;
     value: string;
 }
 
 
-const SeletorOption = ({label, value, ...rest}: SelectorOption) => {
+const SelectorOption = ({label, value, ...rest}: SelectorOptionProps) => {
     return (
         <option value={value} {...rest}>
             {label}
@@ -13,4 +12,4 @@ const SeletorOption = ({label, value, ...rest}: SelectorOption) => {
     )
 }
 
-export default SeletorOption;
+export default SelectorOption;
