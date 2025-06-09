@@ -4,7 +4,7 @@ import Link from "./components/Link"
 function App() {
   return (
     <div>
-      <Banner src="./public/Imagens/Banner Desktop.png" alt="Banner"/>
+      <Banner src="/Imagens/Banner Desktop.png" alt="Banner"/>
       <Link href="_blank">Link</Link>
     </div>
   )
